@@ -1,0 +1,32 @@
+<ScriptInfo>	
+
+	<Information>
+		<Name>Securetalk</Name>
+		<Description>Secure conversation by ding</Description>
+		<Version>1.0</Version>
+	</Information>
+
+	<ScriptCommands>
+		<Command>
+			<Name>crypt on</Name>
+			<Description>This command is used to turn on secure conversation</Description>
+			<Parameters>This text will be crypted.</Parameters>
+		</Command>
+		<Command>
+			<Name>crypt off</Name>
+			<Description>This command is used to turn off secure conversation</Description>
+			<Parameters>This text will be crypted.</Parameters>
+		</Command>		
+		<Command>
+			<Name>crypt handshake</Name>
+			<Description>This command is used to handshake AES key</Description>
+			<Parameters>Send AES key to remote user.</Parameters>
+		</Command>
+		<Command>
+			<Name>crypt newkey</Name>
+			<Description>This command is used to create new AES key</Description>
+			<Parameters>Create new AES key.</Parameters>
+		</Command>
+	</ScriptCommands>
+
+</ScriptInfo>
